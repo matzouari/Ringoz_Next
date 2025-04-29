@@ -31,16 +31,16 @@ export default function RootLayout({
                 </Link>
               </li>
               <li>
-                <Link href="/notes/1">
+                <Link href="/dashboard/notes">
                   <button className="w-full py-2 px-4 rounded-lg bg-blue-500 text-black mb-3">
-                    Note 1
+                    My Notes
                   </button>
                 </Link>
               </li>
               <li>
-                <Link href="/notes/2">
+                <Link href="/dashboard/bingos">
                   <button className="w-full py-2 px-4 rounded-lg bg-blue-500 text-black mb-3">
-                    Note 2
+                    My Bingos
                   </button>
                 </Link>
               </li>
