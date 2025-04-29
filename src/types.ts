@@ -4,4 +4,11 @@ export interface Note {
     preview: string;
     content: string;
   }
+
+export interface Bingo {
+    id: number;
+    title: string;
+    preview: string;
+    content: string;
+  }
   
