@@ -19,3 +19,10 @@ model Note {
   preview String
   content String
 }
+
+model Bingo {
+  id      Int    @id @default(autoincrement())
+  title   String
+  preview String
+  content String
+}
