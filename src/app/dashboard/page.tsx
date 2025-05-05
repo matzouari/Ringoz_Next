@@ -14,7 +14,7 @@ export default async function Dashboard() {
           </Link>
         </div>
         <div className="bg-white rounded-lg shadow-lg p-5 text-center cursor-pointer hover:shadow-xl transition-shadow duration-300">
-          <Link href={`/dashboard/bingo`}>
+          <Link href={`/dashboard/bingos`}>
             <div>
               <h3 className="text-xl font-semibold text-gray-700">My Bingos</h3>
               <p className="text-gray-600 mt-2">Go to My Bingos</p>
